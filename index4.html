@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            p{
+                color: rgb(18, 18, 232);
+            }
+
+            /* from class */
+            .para1{
+                height: 300px;
+                width: 250px;
+                border: 2px solid black;
+                background-color: blanchedalmond;
+            
+                /* for full border */
+                border-radius: 10px; 
+                background-image: url('https://1.bp.blogspot.com/-qdRfUNOtjkM/XeI_00z9pzI/AAAAAAAAF4E/FeD2SvVFnKUjPAKQ_cNM6-D2ahjKb0HkQCLcBGAsYHQ/s1600/Youtube-Icon-square-2340x2340-2.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            /* Target to division */
+            .div1{
+                border: 3px solid rgb(36, 214, 66);
+                background-color: aqua;
+                width: 400px;
+                /* for all margins */
+                /* margin: 20px; */
+                /* up right down left */
+                margin: 10px 10px 10px 10px ;
+                padding: 20px;
+                /* background will not move */
+                box-sizing: border-box;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            /* Target to button */
+            .btn{
+                background-color: rgb(252, 252, 252);
+                border: 2px solid black;
+                color: black;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            /* Button animation */
+            .btn:hover{
+                background-color: black;
+                color: white;
+            }
+
+            .btn:visited{
+                background-color: rgb(248, 7, 240);
+                color: rgb(4, 4, 101);
+            }
+
+            .btn:active{
+                background-color: rgb(93, 248, 96);
+                color: rgb(254, 0, 0);
+            }
+    </style>
+</head>
+<body>
+    <div class="div1" align="center">
+        <h1>CSS</h1>
+        <p class="para1" >
+            Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Laboriosam, laudantium.
+        </p>
+        <a href="" class="btn" align="center">visit</a>
+        <button class="btn" align="center">click</button>
+    </div>
+</body>
+</html>
